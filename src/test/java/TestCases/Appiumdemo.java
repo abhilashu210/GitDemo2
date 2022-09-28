@@ -51,6 +51,7 @@ public class Appiumdemo extends BaseTest{
           driver.findElement(AppiumBy.accessibilityId("1. Custom Adapter")).click();
           driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
           WebElement ele = driver.findElement(By.xpath("//android.widget.TextView[@text='People Names']"));
+          System.out.println(ele);
           LongPressAction(ele);
       }
     }

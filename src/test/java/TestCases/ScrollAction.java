@@ -9,7 +9,7 @@ public class ScrollAction extends BaseTest{
         driver.findElement(AppiumBy.accessibilityId("Views")).click();
         driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"));
         Thread.sleep(2000);
-
+        System.out.println("git commit");
         }
     }
 
