@@ -52,6 +52,7 @@ public class Appiumdemo extends BaseTest{
           driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
           WebElement ele = driver.findElement(By.xpath("//android.widget.TextView[@text='People Names']"));
           System.out.println(ele);
+          System.out.println("Appium pull and push");
           LongPressAction(ele);
       }
     }
