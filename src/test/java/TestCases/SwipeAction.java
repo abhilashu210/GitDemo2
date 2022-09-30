@@ -23,6 +23,8 @@ public class SwipeAction extends BaseTest {
                 "direction", "left",
                 "percent", 0.75
         ));
+        System.out.println(FirstImage);
+        System.out.println("Hello");
         Thread.sleep(2000);
 
 
